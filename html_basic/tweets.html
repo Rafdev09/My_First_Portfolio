@@ -2,24 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>My Tweets</title>
+  <title>Tweets</title>
 </head>
 <body>
   <header>
-    <h1>Welcome to My Tweets Page</h1>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tweets.html">Tweets</a></li>
+    </ul>
   </header>
 
   <main>
-    <!-- Embedded Tweet -->
-    <blockquote class="twitter-tweet">
-      <p lang="en" dir="ltr">Learning HTML step by step! 🚀 #CodingJourney</p>
-      &mdash; Raf (@raf_example)
-      <a href="https://twitter.com/TwitterDev/status/560070183650213889">January 27, 2015</a>
-    </blockquote> 
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <article>
+      <!-- Example embedded tweet (official embed format) -->
+      <blockquote class="twitter-tweet">
+        <p lang="en" dir="ltr">Learning HTML step by step! 🚀 #CodingJourney</p>
+        &mdash; Raf (@raf_example) 
+        <a href="https://twitter.com/TwitterDev/status/560070183650213889">January 27, 2015</a>
+      </blockquote>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </article>
 
-    <!-- Link back to homepage -->
-    <p><a href="index.html">⬅ Back to Homepage</a></p>
+    <aside>
+      <p>placeholder to add comment thread later</p>
+    </aside>
   </main>
+
+  <footer><p>Made by Abdulrafiu - <a href="https://github.com/Rafdev09" target="_blank">here</a></p></footer>
 </body>
 </html>
